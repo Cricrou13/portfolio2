@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+body {
+    padding: 0 2%;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+
+nav .profil {
+    display: flex;
+    align-items: center;
+}
+
+nav .profil img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+nav .profil h1 {
+    margin-left: 10px;
+    font-size: 15px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid white
+}
+
+nav ul li:hover {
+    border-bottom-color: black;
+}
+
+.page-content {
+    margin: 4%;
+}
+
+.page-content header {
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+.page-content header h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Noto sans-serif;
+    font-size: 4vw;
+}
+
+.page-content header p {
+    line-height: 30px;
+    color: gray;
+}
+
+.page-content .presentation-image {
+    margin-top: 5%;
+
+}
+
+.page-content .presentation-image img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.colonne:hover {
+    color: gray;
+}
+
+.colonne1:hover {
+    color: gray;
+}
+
+.colonne2:hover {
+    color: gray;
+}
